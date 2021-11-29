@@ -84,6 +84,10 @@ p {
     text-decoration-thickness: 1px;
 }
 
+.selected-plan a:hover {
+    color: #766CF1;
+}
+
 button {
     border: none;
     border-radius: 11px;
@@ -95,4 +99,19 @@ button {
     height: 50px;
     margin-bottom: 2rem;
     width: 354px;
+}
+
+button:hover {
+        background-color: #766CF1;
+}
+
+.cancel {
+    color: rgba(113, 127, 166, 1);
+    font-size: 15px;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.cancel:hover {
+    color: #1F2E55;
 }
