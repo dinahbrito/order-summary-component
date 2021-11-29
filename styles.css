@@ -8,6 +8,10 @@
 
 body {
     background-color: #E0E8FF;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: fit;
+    background-position: top center;
     color: rgba(113, 127, 166, 1);
     font-family: 'Red Hat Display', sans-serif;
     font-size: 1rem;
