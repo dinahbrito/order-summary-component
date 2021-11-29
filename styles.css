@@ -8,7 +8,16 @@
 
 body {
     background-color: #E0E8FF;
+    color: rgba(113, 127, 166, 1);
     font-family: 'Red Hat Display', sans-serif;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+h1 {
+    color: rgba(31, 46, 85, 1);
+    font-size: 28px;
+    font-weight: 900;
 }
 
 img,
@@ -25,6 +34,10 @@ main {
     
 }
 
+p {
+    line-height: 26px;
+}
+
 .card {
     background-color: #FFFFFF;
     border-radius: 20px;
@@ -33,3 +46,37 @@ main {
     text-align: center;
 }
 
+.order-summary {
+    margin: 3rem;
+}
+
+.selected-plan {
+    align-items: center;
+    background-color: #F7F9FF;
+    border-radius: 11px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    margin-top: 20px;
+    padding: 25px 24px;
+    height: 98px;
+    width: 354px;
+}
+
+.plan {
+    display: flex;
+}
+
+.plan-text {
+    margin-left: 20px;
+}
+
+.plan-text b{
+    color: rgba(31, 46, 85, 1);
+    font-weight: 900;
+}
+
+.selected-plan a {
+    color: rgba(56, 42, 225, 1);
+    text-decoration-thickness: 1px;
+}
