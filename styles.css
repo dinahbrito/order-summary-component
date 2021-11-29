@@ -18,6 +18,7 @@ h1 {
     color: rgba(31, 46, 85, 1);
     font-size: 28px;
     font-weight: 900;
+    margin-bottom: 17px;
 }
 
 img,
@@ -56,9 +57,9 @@ p {
     border-radius: 11px;
     display: flex;
     justify-content: space-between;
-    margin-bottom: 1rem;
+    margin-bottom: 32px;
     margin-top: 20px;
-    padding: 25px 24px;
+    padding: 0 24px;
     height: 98px;
     width: 354px;
 }
@@ -78,5 +79,20 @@ p {
 
 .selected-plan a {
     color: rgba(56, 42, 225, 1);
+    font-size: 14px;
+    font-weight: 700;
     text-decoration-thickness: 1px;
+}
+
+button {
+    border: none;
+    border-radius: 11px;
+    background-color: #382AE1;
+    box-shadow: 0px 20px 20px 0  rgba(56, 42, 225, .19) ;
+    color: #FFFFFF;
+    font-size: 15px;
+    font-weight: 900;
+    height: 50px;
+    margin-bottom: 2rem;
+    width: 354px;
 }
