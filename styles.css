@@ -1,24 +1,28 @@
 *,
 * ::before,
 * ::after {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-  }
+}
+
 body {
     background-color: #E0E8FF;
+    font-family: 'Red Hat Display', sans-serif;
 }
+
 img,
 picture {
-    max-width: 100%;
     display: block;
+    max-width: 100%;
 }
 
 main {
-    display: flex;
-    justify-content: center;
     align-items: center;
+    display: flex;
     height: 100vh;
+    justify-content: center;
+    
 }
 
 .card {
@@ -26,5 +30,6 @@ main {
     border-radius: 20px;
     max-width: 450px;
     overflow: hidden;
-
+    text-align: center;
 }
+
