@@ -4,6 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    -webkit-font-smoothing: antialiased;
 }
 
 body {
@@ -126,14 +127,16 @@ button:hover {
         max-width: 327px;
         margin-left: 1.5rem;
         margin-right: 1.5rem;
+        text-align: center;
     }
     .order-summary {
-        margin: 32px;
+        margin: 1.5rem;
     }
     h1 {
         font-size: 22px;
     }
     body {
+        background-image: url(./images/pattern-background-mobile.svg);
         font-size: 15px;
     }
     .plan-text, .plain-text b {
