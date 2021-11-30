@@ -120,3 +120,35 @@ button:hover {
 .cancel:hover {
     color: #1F2E55;
 }
+
+@media only screen and (max-width: 375px) {
+    .card {
+        max-width: 327px;
+        margin-left: 1.5rem;
+        margin-right: 1.5rem;
+    }
+    .order-summary {
+        margin: 32px;
+    }
+    h1 {
+        font-size: 22px;
+    }
+    body {
+        font-size: 15px;
+    }
+    .plan-text, .plain-text b {
+        font-size: 14px;
+    }
+    .selected-plan a {
+        font-size: 13px;
+    }
+    .selected-plan {
+        height: 81px;
+        width: 279px;
+        padding: 16px;
+    }
+    button {
+        height: 50px;
+        width: 279px;
+    }
+}
