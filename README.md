@@ -1,4 +1,4 @@
-# Frontend Mentor - Order summary card solution
+# [Frontend Mentor](frontendmentor.io/) - Order summary card solution
 
 ![](./images/screenshot.jpg)
 
